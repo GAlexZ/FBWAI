@@ -17,7 +17,7 @@ export const Sidebar = () => {
     },
     {
       icon: Plus,
-      href: "dashboard/ai/new",
+      href: "/dashboard/ai/new",
       label: "Create",
       pro: false,
     },
