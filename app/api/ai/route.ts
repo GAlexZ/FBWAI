@@ -31,7 +31,7 @@ export async function POST(req: Request) {
     });
     return NextResponse.json(ai);
   } catch (error) {
-    console.log(error);
+    console.log(error + "Error 4");
     return new NextResponse("Internal Error", { status: 500 });
   }
 }

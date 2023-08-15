@@ -42,7 +42,7 @@ export async function PATCH(
     });
     return NextResponse.json(ai);
   } catch (error) {
-    console.log(error);
+    console.log(error) + "Error 2";
     return new NextResponse("Internal Error", { status: 500 });
   }
 }
