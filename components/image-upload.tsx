@@ -1,4 +1,4 @@
-"use-client";
+"use client";
 
 import { CldUploadButton } from "next-cloudinary";
 import Image from "next/image";
